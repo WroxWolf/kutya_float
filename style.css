@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: url("../pics/bg-body.jpg") fixed;
+    font-family: "Relaway", sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+header{
+    background:url("./Forrás/fejléc_háttér.jpg");
+    color: white;
+    font-size: 5em;
+    font-weight: 1000;
+    padding: 80px 60px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 8);
+}
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+
+}
