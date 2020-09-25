@@ -1,1 +1,3 @@
-# kutya_float
+# Kutya project
+
+oldal létrehozása float technikával
