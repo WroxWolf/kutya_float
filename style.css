@@ -1,21 +1,77 @@
 body {
     margin: 0;
-    background: url("../pics/bg-body.jpg") fixed;
-    font-family: "Relaway", sans-serif;
 }
 * {
     box-sizing: border-box;
 }
 header{
-    background:url("./Forrás/fejléc_háttér.jpg");
-    color: white;
+    background:url("./Forrás/fejléc_háttér.jpeg");
     font-size: 5em;
-    font-weight: 1000;
-    padding: 80px 60px;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 8);
+    font-weight: 700;
+    padding: 120px 90px;
+    height: 364px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 5);
 }
 .wrapper{
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
+}
+nav{
+    float: right;
+    width: 25%;
+    background-color: burlywood;
+}
+main{
+    float: left;
+    width: 75%;
+    background: lightgreen;
+    padding: 55px;
+}
 
+
+nav ul{
+    margin-left: 20px;
+    padding: 30px;
+    list-style-image: url("../kutya_float/Forrás/dog-paw.png");
+}
+nav ul li{
+    border-bottom: 1px dashed rgba(255,255,255,0.2);
+}
+
+nav ul li a{
+    color: black;
+    padding: 15px 0px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background: rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+.card {
+    text-align: left;
+    float: left;
+    display: block;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    margin-left: 55px;
+    margin-bottom: 25px;
+    width: 315px;
+    background-color: papayawhip;
+}
+.card a{
+    background-color: burlywood;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.card p{
+    padding: 10px;
+}
+.card h2{
+    padding: 10px;
 }
