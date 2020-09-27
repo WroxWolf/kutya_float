@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    
 }
 * {
     box-sizing: border-box;
@@ -11,10 +12,12 @@ header{
     padding: 120px 90px;
     height: 364px;
     text-shadow: 0 0 20px rgba(0, 0, 0, 5);
+    max-width: 100%;
 }
 .wrapper{
     width: 1200px;
     margin: 0 auto;
+    max-width: 95%;
 }
 nav{
     float: right;
@@ -42,6 +45,7 @@ nav ul li a{
     color: black;
     padding: 15px 0px;
     display: block;
+    text-decoration: none;
 }
 
 nav ul li a:hover{
@@ -74,4 +78,9 @@ nav ul li a:hover{
 }
 .card h2{
     padding: 10px;
+}
+@media (max-width:990px){
+    .box {
+        width: 90%;
+    }
 }
